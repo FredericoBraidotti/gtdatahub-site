@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="GT DataHub — sim racing technology">
+  <!-- Background -->
+  <rect width="240" height="240" rx="16" fill="#111111"/>
+
+  <!-- Grid lines (tech / data aesthetic) -->
+  <g stroke="#1e1e1e" stroke-width="1">
+    <line x1="0"   y1="40"  x2="240" y2="40"/>
+    <line x1="0"   y1="80"  x2="240" y2="80"/>
+    <line x1="0"   y1="120" x2="240" y2="120"/>
+    <line x1="0"   y1="160" x2="240" y2="160"/>
+    <line x1="0"   y1="200" x2="240" y2="200"/>
+    <line x1="40"  y1="0"   x2="40"  y2="240"/>
+    <line x1="80"  y1="0"   x2="80"  y2="240"/>
+    <line x1="120" y1="0"   x2="120" y2="240"/>
+    <line x1="160" y1="0"   x2="160" y2="240"/>
+    <line x1="200" y1="0"   x2="200" y2="240"/>
+  </g>
+
+  <!-- Speed streaks -->
+  <g stroke="#e02020" stroke-linecap="round" opacity="0.6">
+    <line x1="10"  y1="105" x2="80"  y2="105" stroke-width="2.5"/>
+    <line x1="10"  y1="115" x2="60"  y2="115" stroke-width="1.5"/>
+    <line x1="10"  y1="125" x2="70"  y2="125" stroke-width="1"/>
+  </g>
+  <g stroke="#e02020" stroke-linecap="round" opacity="0.35">
+    <line x1="10"  y1="95"  x2="50"  y2="95"  stroke-width="1"/>
+    <line x1="10"  y1="135" x2="45"  y2="135" stroke-width="1"/>
+  </g>
+
+  <!-- Abstract race car silhouette (simplified top-down view) -->
+  <!-- Body -->
+  <ellipse cx="148" cy="118" rx="38" ry="18" fill="#222222" stroke="#e02020" stroke-width="1.5"/>
+  <!-- Cockpit -->
+  <ellipse cx="148" cy="118" rx="16" ry="9" fill="#1a1a1a" stroke="#444" stroke-width="1"/>
+  <!-- Front wing -->
+  <rect x="180" y="110" width="14" height="16" rx="3" fill="#1e1e1e" stroke="#e02020" stroke-width="1.2"/>
+  <!-- Rear wing -->
+  <rect x="100" y="107" width="10" height="22" rx="3" fill="#1e1e1e" stroke="#e02020" stroke-width="1.2"/>
+  <!-- Wheels -->
+  <ellipse cx="170" cy="104" rx="7" ry="5" fill="#2a2a2a" stroke="#555" stroke-width="1"/>
+  <ellipse cx="170" cy="132" rx="7" ry="5" fill="#2a2a2a" stroke="#555" stroke-width="1"/>
+  <ellipse cx="128" cy="104" rx="7" ry="5" fill="#2a2a2a" stroke="#555" stroke-width="1"/>
+  <ellipse cx="128" cy="132" rx="7" ry="5" fill="#2a2a2a" stroke="#555" stroke-width="1"/>
+
+  <!-- Data / telemetry lines (right side) -->
+  <g stroke="#e02020" stroke-width="1" opacity="0.5">
+    <polyline fill="none" points="200,80 210,90 215,75 220,85 225,70 230,80 235,65"/>
+  </g>
+  <g stroke="#555" stroke-width="0.5" opacity="0.6">
+    <polyline fill="none" points="200,160 210,155 215,165 220,150 225,160 230,148 235,158"/>
+  </g>
+
+  <!-- Accent dots (data nodes) -->
+  <circle cx="215" cy="75" r="2" fill="#e02020"/>
+  <circle cx="225" cy="70" r="2" fill="#e02020"/>
+  <circle cx="235" cy="65" r="2" fill="#e02020"/>
+
+  <!-- Label -->
+  <text x="120" y="210" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="3" fill="#e02020" opacity="0.9">GT DATAHUB</text>
+</svg>
